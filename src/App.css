@@ -1,0 +1,104 @@
+/* Importing necessary Bootstrap styles */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* Tailwind base, components, and utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4; /* Light gray background */
+}
+
+/* Main header styles */
+header {
+  background-color: #00aeed; /* Primary Blue */
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+/* Main layout container styling */
+.main-content {
+  padding: 2rem;
+}
+
+/* Button styles */
+button {
+  font-size: 1rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+}
+
+button.bg-primaryPink {
+  background-color: #ed0d63; /* Primary Pink */
+  color: white;
+}
+
+button.bg-primaryPink:hover {
+  background-color: #c20950; /* Darker pink for hover effect */
+}
+
+button.bg-primaryBlue {
+  background-color: #00aeed; /* Primary Blue */
+  color: white;
+}
+
+button.bg-primaryBlue:hover {
+  background-color: #008bb8; /* Darker blue for hover effect */
+}
+
+/* Product card styling */
+.product-card {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px); /* Lifts the card slightly on hover */
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+
+.product-card h3 {
+  color: #ed0d63; /* Primary Pink */
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+.product-card p {
+  color: #00aeed; /* Primary Blue */
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* Footer styling */
+footer {
+  background-color: #ed0d63; /* Primary Pink */
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* Custom container for centered layout */
+.center-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}

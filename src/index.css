@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(1080deg); } /* 3 spins = 1080 degrees */
+  }
+  
+  .animate-spin {
+    animation: spin 2s linear infinite; /* Adjust duration as needed */
+  }
+  
